@@ -1,0 +1,156 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Biodata</title>
+    <style>
+        @font-face {
+    font-family: 'montserratthin_italic';
+    src: url('montserrat-italic-variablefont_wght-webfont.woff2') format('woff2'),
+         url('montserrat-italic-variablefont_wght-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'montserratthin';
+    src: url('montserrat-variablefont_wght-webfont.woff2') format('woff2'),
+         url('montserrat-variablefont_wght-webfont.woff') format('woff');
+    font-weight: normal;
+}
+        @font-face {
+    font-family: 'four_potatoes_farmregular';
+    src: url('four-potatoes-farm.regular-webfont.woff2') format('woff2'),
+         url('four-potatoes-farm.regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+        .title {
+            background-image: url('backgroundfortitle.jpg'); 
+            background-size: auto cover;
+            color: white;
+            padding: 30px;
+            text-align: center;
+            font-family: 'montserratthin';
+            font-size: 4em;
+        }
+        .second-heading-container {
+            display: flex;
+            align-items: center;
+        }
+        .second-heading {
+            color: navy;
+            text-align: center;
+            font-family: 'four_potatoes_farmregular';
+            font-size: 9em;
+            left: 15%;
+            z-index:-1;
+            position: relative;
+        }
+       .icon {
+            max-width: 135px;
+            margin-right: 10px; 
+            position: absolute; 
+            top: 1; 
+            left: 55%;
+            transform: translateX(-50%);
+            z-index: 2; 
+        }
+        .personal-info {
+          background-color: teal;
+          color: white;
+          padding: 12px;
+          text-align: center;
+          font-family: 'montserratthin'; 
+          font-size: 2em;
+        }
+        .info-pairs-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .info-pair{
+          width: 50%
+          float: left;
+        }
+
+        .subtitle {
+          color: teal;
+          padding: 6px;
+          font-weight: bold;
+          text-align: center;
+          font-family: 'montserratthin';
+          display: inline-block;
+          font-size: 20px;
+        }
+        .info {
+          color: black;
+          font-weight: bold;
+          padding: 6px;
+          text-align: center;
+          font-family: 'montserratthin';
+          display: inline-block;
+
+        }
+
+        .gif {
+            display: block;
+            margin: 0 auto;
+        }
+        .clear {
+          clear: both;
+    </style>
+</head>
+<body>
+    <h1 class="title">My Biodata</h1>
+    <div class="second-heading-container">
+        <img src="icon.png" alt="icon" class="icon">
+        <h2 class="second-heading">W e l c o m e !</h2>
+    </div>
+    <div class="personal-info">Personal Information</div>
+    <div class="info-pair">
+        <div class="subtitle">Name:</div>
+        <div class="info">Alyssa Marie O. Payong</div>
+    </div>
+    <div class="info-pair">
+        <div class="subtitle">Address:</div>
+        <div class="info">#154 Abella St. Naga City, Camarines Sur, Philippines</div>
+    </div>
+    <div class="info-pair">
+        <div class="subtitle">Email Address:</div>
+        <div class="info">alyssapayong@gmail.com</div>
+    </div>
+    <div class="info-pair">
+        <div class="subtitle">Contact Number:</div>
+        <div class="info">09198616020</div>
+    </div>
+
+    <div class="personal-info">Educational Background</div>
+    <div class="info-pair">
+        <div class="subtitle">College:</div>
+        <div class="info">AMA Online Education</div>
+        <div class="info">2023-Present</div>
+    <div class="info-pair">
+        <div class="subtitle">Highschool:</div>
+        <div class="info">Universidad de Sta. Isabel</div>
+        <div class="info">2018-2023</div>
+
+    <div class="personal-info">Skills</div>
+    <div class="info-pair">
+        <div class="subtitle">Academics:</div>
+        <div class="info">|Computer Science|</div>
+        <div class="info">|English Writing|</div>
+        <div class="info">|Presentation Public Speaking|</div>
+    <div class="info-pair">
+        <div class="subtitle">Hobbies:</div>
+        <div class="info">|Painting|</div>
+        <div class="info">|Piano and Guitar|</div>
+        <div class="info">|Literature|</div>
+    <div class="personal-info">Extras!</div>
+    <div class="subtitle">my favorite OPM songs :)</div>
+    
+    <div class="clear"></div>
+    <div class="spotify-player">
+        <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/10pAgzFFkCXsf3NDMu37Dn?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+    <img src="cat.gif" alt="cat" class="gif">
+</body>
+</html>
